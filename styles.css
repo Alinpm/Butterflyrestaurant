@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: #FFF4E4;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-image {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5e6d3;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .content-image {
+    width: 95%;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 15px;
+  }
+}
