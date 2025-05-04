@@ -30,7 +30,12 @@ main h1 {
     margin-top: 30px;
     color: #444;
 }
-
+main h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 30px;
+    color: #444;
+}
 main p {
     text-align: center;
     font-size: 1.1em;
